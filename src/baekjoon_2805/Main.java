@@ -23,7 +23,7 @@ class Main {
 		}
 		while(low <= high) {
 			int mid = (low + high) / 2;
-			int sum = 0;
+			long sum = 0;
 			for(int i = 0; i < N; i++)
 				if(mid < treeHights[i])
 					sum += (treeHights[i] - mid);
