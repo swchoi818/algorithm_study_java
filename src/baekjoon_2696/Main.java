@@ -50,6 +50,7 @@ class Main {
 				bw.write(String.valueOf(midNum[i]));
 				bw.write(" ");
 			}
+			bw.newLine();
 		}
 		br.close();
 		bw.flush();
